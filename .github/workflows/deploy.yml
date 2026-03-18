@@ -24,8 +24,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
-          cache: "npm"
+          node-version: "20"
+          cache: "yarn"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -35,15 +35,15 @@ jobs:
         with:
           path: |
             .next/cache
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
           restore-keys: |
-            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
 
       - name: Install dependencies
-        run: npm ci
+        run: yarn install --frozen-lockfile
 
       - name: Build with Next.js
-        run: npm run build
+        run: yarn build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
