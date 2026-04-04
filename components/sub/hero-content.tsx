@@ -44,11 +44,12 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          B.Tech CSE @ RGIPT · AI/ML Engineer & Full-Stack Developer.{" "}
-          <span className="text-gray-300">Grand Finalist at Smart India Hackathon 2025</span>,{" "}
-          Winner at GO-BRICS Energy-O-Thon, ET AI Hackathon Semi-Finalist, and Finalist at IIT Madras Shaastra.
-          I build production-grade AI systems — from BioMistral-powered pharmacovigilance platforms (F1: 0.94) to multi-agent RevOps pipelines and transformer-ensemble NLP backends.
-          Driven by impact metrics, not just code.
+          The best engineering happens when you chase{" "}
+          <span className="text-gray-300">messy, real-world problems</span>
+          {" "}— not textbook ones. I started with mathematics olympiads and science club leadership,
+          and now I build production-grade AI systems that drive tangible outcomes.
+          I don&apos;t just write code — I architect tools that help people navigate complexity.{" "}
+          <span className="text-gray-300">A sharp mind is just a tool. What matters is who you build for.</span>
         </motion.p>
 
       </div>
