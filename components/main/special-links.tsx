@@ -1,19 +1,48 @@
 export const SpecialLinks = () => {
   const specialLinks = [
     {
+      title: "Experience",
+      links: [
+        {
+          name: "AI & Cloud Technology Intern · Edunet Foundation | AICTE | IBM Skills Build",
+          url: "https://drive.google.com/file/d/1ssfMPJL8RaQvfN6tkqiEwng36tb36QOi/view?usp=sharing",
+          icon: "☁️",
+          description: "Sep–Oct 2025 · Remote · Deployed AI models on cloud architecture using IBM Skills Build; optimized ML data pipelines for scalability."
+        },
+        {
+          name: "Machine Learning Trainee · Finlatics",
+          url: "https://drive.google.com/file/d/1SGdg0F5zqMhAcEoRDh5KKgC61bEsYArJ/view?usp=drive_link",
+          icon: "🤖",
+          description: "May–Aug 2025 · Remote · Engineered data-driven ML solutions using Python; implemented supervised/unsupervised algorithms and advanced feature extraction on real business data."
+        },
+        {
+          name: "Tutor · Statistical Methods & Numerical Methods",
+          url: "#",
+          icon: "📐",
+          description: "2026 – Present · RGIPT · Teaching Statistical Methods and Data Analysis, and Numerical Methods to junior students."
+        }
+      ]
+    },
+    {
       title: "Certifications & Credentials",
       links: [
+        {
+          name: "All Achievement Links",
+          url: "https://linktr.ee/tishyajha",
+          icon: "🔗",
+          description: "Complete collection of hackathon wins, certifications, and competition results via Linktree"
+        },
         {
           name: "IIT Bombay Quantum Computing Workshop",
           url: "https://cert-files.konfhub.com/4988/8f21e10e-c8f5-11ef-975b-9506a95560fd.pdf",
           icon: "🎓",
-          description: "Certificate in Quantum Computing"
+          description: "Certificate in Quantum Computing from IIT Bombay"
         },
         {
           name: "Credly Profile",
           url: "https://www.credly.com/users/tishya-jha",
           icon: "🏆",
-          description: "Digital badges and certifications"
+          description: "Digital badges and certifications from IBM, AWS, and more"
         }
       ]
     },
@@ -24,7 +53,7 @@ export const SpecialLinks = () => {
           name: "Unstop Profile",
           url: "https://unstop.com/u/tishyjha8354",
           icon: "🚀",
-          description: "Competition and hackathon profile"
+          description: "Competition and hackathon profile — 99.15 percentile Young Turks"
         },
         {
           name: "Google Developer Profile",
@@ -54,7 +83,7 @@ export const SpecialLinks = () => {
       className="flex flex-col items-center justify-center py-20"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        Certifications & Profiles
+        Experience, Certifications & Profiles
       </h1>
       <div className="h-full w-full flex flex-col gap-8 px-10 max-w-6xl">
         {specialLinks.map((section, sectionIndex) => (

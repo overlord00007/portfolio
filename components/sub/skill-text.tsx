@@ -31,9 +31,16 @@ export const SkillText = () => {
 
       <motion.div
         variants={slideInFromRight(0.5)}
-        className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
+        className="cursive text-[20px] text-gray-200 mb-4 mt-[10px] text-center"
       >
         From AI-powered platforms to full-stack applications.
+      </motion.div>
+
+      <motion.div
+        variants={slideInFromLeft(0.8)}
+        className="text-[13px] text-gray-400 mb-10 text-center max-w-2xl px-4"
+      >
+        Core strengths: NLP & Deep Learning (BERT, BioMistral, QLoRA), FastAPI at scale, FAISS-based retrieval, OCR pipelines, and cloud-ready ML systems.
       </motion.div>
     </div>
   );

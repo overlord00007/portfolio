@@ -1,49 +1,64 @@
 export const Achievements = () => {
   const achievements = [
     {
+      title: "Finalist | IIT Madras E-Contest · Shaastra",
+      year: "2026",
+      description: "Selected as Finalist at IIT Madras Shaastra E-Contest, competing among top engineering and business talent nationwide."
+    },
+    {
+      title: "Semi-Finalist (Top 25 Teams) | NEST 2.0 · Novartis",
+      year: "2026",
+      description: "Advanced to Semi-Finals in NEST 2.0 by Novartis — a prestigious healthcare innovation challenge, ranking in the Top 25 teams across India."
+    },
+    {
+      title: "Winner | GO-BRICS Energy-O-Thon · India–Russia Pilot Phase",
+      year: "2026",
+      description: "Winner at the GO-BRICS Energy-O-Thon India–Russia Pilot Phase, an international energy innovation competition."
+    },
+    {
+      title: "Grand Finalist | Smart India Hackathon 2025",
+      year: "2025",
+      description: "Grand Finalist at Smart India Hackathon 2025 — one of the world's largest open innovation model competitions."
+    },
+    {
+      title: "99.15 Percentile | Naukri Campus Young Turks",
+      year: "2025",
+      description: "Achieved 99.15 percentile in Naukri Campus Young Turks national assessment among thousands of engineering students."
+    },
+    {
       title: "Top 250 Finalist Nationwide | Odoo Hackathon 2025",
       year: "2025",
-      description: "Finalist in the prestigious Odoo Hackathon 2025, competing among top developers nationwide."
+      description: "Finalist in the prestigious Odoo Hackathon 2025, competing among top developers nationwide. Two projects (RentalPro and SkillSwap Hub) both selected."
     },
     {
-      title: "Contributor @GSSOC 2025",
-      year: "2025", 
-      description: "Active contributor in GirlScript Summer of Code 2025, contributing to open source projects."
-    },
-    {
-      title: "Round 2 Qualifier | Flipkart Grid Software Development Track",
+      title: "Winner | CodeClash Hackathon · Let's Code Community",
       year: "2025",
-      description: "Qualified to Round 2 in Flipkart Grid Software Development Track, showcasing technical expertise."
+      description: "Winner of CodeClash Hackathon organized by Let's Code Community, demonstrating problem-solving and rapid development skills."
     },
     {
-      title: "Winner at CodeClash Hackathon by Let's Code Community",
-      year: "2025",
-      description: "Winner of CodeClash Hackathon organized by Let's Code Community, demonstrating problem-solving skills."
-    },
-    {
-      title: "Rank 1 | DSA Quiz and Coding Competition | Technocrat Institute of Technology Bhopal",
+      title: "Rank 1 | DSA Quiz & Coding Competition · Technocrat Institute, Bhopal",
       year: "2025",
       description: "Secured Rank 1 in DSA Quiz and Coding Competition at Technocrat Institute of Technology Bhopal."
     },
     {
-      title: "Qualified to Round 2 | Flipkart Grid Robotics Track",
+      title: "Contributor @GirlScript Summer of Code 2025",
+      year: "2025",
+      description: "Active open-source contributor in GirlScript Summer of Code 2025, mentoring and contributing to projects."
+    },
+    {
+      title: "Finalist | IIT Bombay Techfest · Meshmerize",
       year: "2024",
-      description: "Advanced to Round 2 in Flipkart Grid Robotics Track, showcasing interdisciplinary skills."
+      description: "Finalist at IIT Bombay Techfest in the Meshmerize competition, competing among top engineering students from premier institutions."
     },
     {
-      title: "Selected as Finalists at IIT Bombay Techfest | Meshmerize",
-      year: "2024",
-      description: "Finalist at IIT Bombay Techfest in Meshmerize competition, competing among top engineering students."
+      title: "JEE Mains 97.3 percentile · JEE Advanced Top 2% · CUET 99.98 percentile (Maths)",
+      year: "2022–23",
+      description: "Qualified JEE Mains (97.3 percentile) and JEE Advanced (Top 2%), with an exceptional 99.98 percentile in Mathematics in CUET."
     },
     {
-      title: "Qualified JEE Mains and JEE Advanced as top 2 percent | CUET 99.98 percentile in Maths",
-      year: "2022-23",
-      description: "Achieved top 2% in JEE Mains and JEE Advanced, with 99.98 percentile in Mathematics in CUET."
-    },
-    {
-      title: "NTSE UP 2023 Scholar | Participated and Won several Olympiads",
-      year: "2018-21",
-      description: "NTSE UP 2023 Scholar with multiple Olympiad achievements during 2018-2021."
+      title: "NTSE UP 2023 Scholar | Multiple National Olympiad Wins",
+      year: "2018–21",
+      description: "NTSE UP 2023 Scholar with multiple Olympiad achievements across Science and Mathematics during 2018–2021."
     }
   ];
 

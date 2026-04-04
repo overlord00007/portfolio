@@ -24,7 +24,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            B.Tech CSE Student & AI/ML Developer
+            AI/ML Engineer · Grand Finalist SIH 2025 · B.Tech CSE @ RGIPT
           </h1>
         </motion.div>
 
@@ -44,10 +44,11 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Sophomore in Computer Science and Design Engineering at RGIPT with expertise in AI/ML, Full Stack Development, and competitive programming. 
-          Actively participated in hackathons, coding contests, and events, always striving to push my limits and improve. 
-          My problem-solving approach emphasizes logical thinking and algorithmic breakdown, enabling me to tackle complex challenges effectively. 
-          Eager to contribute to real-world projects, build innovative solutions, and be a valuable asset to future teams.
+          B.Tech CSE @ RGIPT · AI/ML Engineer & Full-Stack Developer.{" "}
+          <span className="text-gray-300">Grand Finalist at Smart India Hackathon 2025</span>,{" "}
+          Winner at GO-BRICS Energy-O-Thon, ET AI Hackathon Semi-Finalist, and Finalist at IIT Madras Shaastra.
+          I build production-grade AI systems — from BioMistral-powered pharmacovigilance platforms (F1: 0.94) to multi-agent RevOps pipelines and transformer-ensemble NLP backends.
+          Driven by impact metrics, not just code.
         </motion.p>
 
       </div>
