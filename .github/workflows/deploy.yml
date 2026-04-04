@@ -34,7 +34,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: |
-            .next/cache
+            docs/cache
           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
@@ -45,10 +45,13 @@ jobs:
       - name: Build with Next.js
         run: yarn build
 
+      - name: Add .nojekyll to suppress Jekyll
+        run: touch docs/.nojekyll
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./docs
 
   deploy:
     environment:
