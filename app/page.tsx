@@ -1,8 +1,8 @@
 import { Achievements } from "@/components/main/achievements";
+import { Experience } from "@/components/main/experience";
 import { Hero } from "@/components/main/hero";
 import { Projects } from "@/components/main/projects";
 import { Skills } from "@/components/main/skills";
-import { SpecialLinks } from "@/components/main/special-links";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         <Skills />
         <Projects />
         <Achievements />
-        <SpecialLinks />
+        <Experience />
       </div>
     </main>
   );

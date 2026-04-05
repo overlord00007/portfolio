@@ -1,96 +1,94 @@
 export const Achievements = () => {
-  const achievements = [
+  const achievements: {
+    title: string;
+    badge: string;
+    year: string;
+    description: string;
+    href?: string;
+    highlight?: string;
+  }[] = [
     {
-      title: "Finalist | IIT Madras E-Contest · Shaastra",
-      year: "2026",
-      description: "Selected as Finalist at IIT Madras Shaastra E-Contest, competing among top engineering and business talent nationwide."
-    },
-    {
-      title: "Semi-Finalist (Top 25 Teams) | NEST 2.0 · Novartis",
-      year: "2026",
-      description: "Advanced to Semi-Finals in NEST 2.0 by Novartis — a prestigious healthcare innovation challenge, ranking in the Top 25 teams across India."
-    },
-    {
-      title: "Winner | GO-BRICS Energy-O-Thon · India–Russia Pilot Phase",
-      year: "2026",
-      description: "Winner at the GO-BRICS Energy-O-Thon India–Russia Pilot Phase, an international energy innovation competition."
-    },
-    {
-      title: "Grand Finalist | Smart India Hackathon 2025",
+      title: "Finalist (Team Lead) · Smart India Hackathon 2025",
+      badge: "🏆 National Finalist",
       year: "2025",
-      description: "Grand Finalist at Smart India Hackathon 2025 — one of the world's largest open innovation model competitions."
+      highlight: "Ministry of Corporate Affairs",
+      description:
+        "Led a cross-functional team to design and deliver a working prototype — Saaransh — under a strict timeline for the Ministry of Corporate Affairs. Competed at the national level among thousands of teams.",
+      href: undefined,
     },
     {
-      title: "99.15 Percentile | Naukri Campus Young Turks",
+      title: "Runner Up · Odoo Hackathon 2025",
+      badge: "🥈 Runner Up",
       year: "2025",
-      description: "Achieved 99.15 percentile in Naukri Campus Young Turks national assessment among thousands of engineering students."
+      highlight: "Built in 24 hours",
+      description:
+        "Built a fully functional full-stack rental web platform (RentalPro) from scratch in under 24 hours using Odoo framework, earning runner-up position at a competitive national hackathon.",
+      href: undefined,
     },
     {
-      title: "Top 250 Finalist Nationwide | Odoo Hackathon 2025",
-      year: "2025",
-      description: "Finalist in the prestigious Odoo Hackathon 2025, competing among top developers nationwide. Two projects (RentalPro and SkillSwap Hub) both selected."
+      title: "Specialist · Codeforces (Max Rating: 1489)",
+      badge: "⚡ CF Specialist",
+      year: "June 2025",
+      highlight: "Rating 1489",
+      description:
+        "Achieved Specialist rank on Codeforces with a peak rating of 1489, demonstrating strong algorithmic problem-solving and competitive programming skills.",
+      href: "https://codeforces.com/profile/picsoo",
     },
-    {
-      title: "Winner | CodeClash Hackathon · Let's Code Community",
-      year: "2025",
-      description: "Winner of CodeClash Hackathon organized by Let's Code Community, demonstrating problem-solving and rapid development skills."
-    },
-    {
-      title: "Rank 1 | DSA Quiz & Coding Competition · Technocrat Institute, Bhopal",
-      year: "2025",
-      description: "Secured Rank 1 in DSA Quiz and Coding Competition at Technocrat Institute of Technology Bhopal."
-    },
-    {
-      title: "Contributor @GirlScript Summer of Code 2025",
-      year: "2025",
-      description: "Active open-source contributor in GirlScript Summer of Code 2025, mentoring and contributing to projects."
-    },
-    {
-      title: "Finalist | IIT Bombay Techfest · Meshmerize",
-      year: "2024",
-      description: "Finalist at IIT Bombay Techfest in the Meshmerize competition, competing among top engineering students from premier institutions."
-    },
-    {
-      title: "JEE Mains 97.3 percentile · JEE Advanced Top 2% · CUET 99.98 percentile (Maths)",
-      year: "2022–23",
-      description: "Qualified JEE Mains (97.3 percentile) and JEE Advanced (Top 2%), with an exceptional 99.98 percentile in Mathematics in CUET."
-    },
-    {
-      title: "NTSE UP 2023 Scholar | Multiple National Olympiad Wins",
-      year: "2018–21",
-      description: "NTSE UP 2023 Scholar with multiple Olympiad achievements across Science and Mathematics during 2018–2021."
-    }
   ];
 
   return (
     <section
       id="achievements"
-      className="flex flex-col items-center justify-center py-20"
+      className="flex flex-col items-center justify-center py-20 px-6 md:px-10"
     >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        Achievements & Recognition
-      </h1>
-      <div className="h-full w-full flex flex-col gap-8 px-10 max-w-4xl">
+      <div className="text-center mb-12">
+        <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-500 py-4">
+          Achievements &amp; Recognition
+        </h1>
+        <p className="text-gray-400 text-base max-w-xl mx-auto">
+          Highlights from hackathons, competitive programming, and leadership — a track record of delivering under pressure.
+        </p>
+      </div>
+
+      <div className="h-full w-full flex flex-col gap-6 max-w-4xl">
         {achievements.map((achievement, index) => (
           <div
             key={index}
-            className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-lg p-6 hover:bg-gray-800/70 transition-all duration-300"
+            className="bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-2xl p-6 hover:border-green-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(34,197,94,0.08)] group"
           >
-            <div className="flex flex-col md:flex-row md:items-center justify-between mb-3">
-              <h3 className="text-xl font-semibold text-white mb-2 md:mb-0">
-                {achievement.title}
-              </h3>
-              <span className="text-purple-400 font-medium text-sm">
+            <div className="flex flex-col md:flex-row md:items-start justify-between gap-3 mb-3">
+              <div className="flex-1">
+                <div className="flex flex-wrap items-center gap-3 mb-2">
+                  <span className="px-3 py-1 bg-green-900/40 border border-green-700/50 rounded-full text-green-300 text-xs font-semibold">
+                    {achievement.badge}
+                  </span>
+                  {achievement.highlight && (
+                    <span className="px-3 py-1 bg-emerald-900/30 border border-emerald-700/40 rounded-full text-emerald-300 text-xs">
+                      {achievement.highlight}
+                    </span>
+                  )}
+                </div>
+                {achievement.href ? (
+                  <a
+                    href={achievement.href}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="text-xl font-bold text-white hover:text-green-400 transition-colors group-hover:underline underline-offset-2"
+                  >
+                    {achievement.title} ↗
+                  </a>
+                ) : (
+                  <h3 className="text-xl font-bold text-white">{achievement.title}</h3>
+                )}
+              </div>
+              <span className="text-green-400 font-mono text-sm whitespace-nowrap shrink-0 mt-1">
                 {achievement.year}
               </span>
             </div>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              {achievement.description}
-            </p>
+            <p className="text-gray-400 text-sm leading-relaxed">{achievement.description}</p>
           </div>
         ))}
       </div>
     </section>
   );
 };
-

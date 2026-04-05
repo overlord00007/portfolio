@@ -2,11 +2,9 @@
 
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 import {
   slideInFromLeft,
-  slideInFromRight,
   slideInFromTop,
 } from "@/lib/motion";
 
@@ -15,16 +13,16 @@ export const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-col items-center justify-center px-20 mt-40 w-full z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-center items-center">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          <SparklesIcon className="text-green-400 mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            AI/ML Engineer · Grand Finalist SIH 2025 · B.Tech CSE @ RGIPT
+            Software Engineer · SIH 2025 Finalist · B.Tech Mathematics &amp; Computing @ RGIPT
           </h1>
         </motion.div>
 
@@ -34,8 +32,8 @@ export const HeroContent = () => {
         >
           <span>
             Hi, I&apos;m{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              Tishya Jha
+            <span className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
+              Yuvraj Singh
             </span>
           </span>
         </motion.div>
@@ -44,29 +42,9 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          The best engineering happens when you chase{" "}
-          <span className="text-gray-300">messy, real-world problems</span>
-          {" "}— not textbook ones. I started with mathematics olympiads and science club leadership,
-          and now I build production-grade AI systems that drive tangible outcomes.
-          I don&apos;t just write code — I architect tools that help people navigate complexity.{" "}
-          <span className="text-gray-300">A sharp mind is just a tool. What matters is who you build for.</span>
+          Analytical Software Engineer and SIH 2025 Finalist with a strong foundation in Data Structures, Algorithms, and Object-Oriented Design. Experienced in building scalable distributed systems (Scrubbie) and AI-integrated platforms (Saaransh) using C++, Python, and Full-Stack technologies. Keenly interested in contributing to innovative research and organizational growth through technical excellence and a results-driven mindset.
         </motion.p>
-
       </div>
-
-      <motion.div
-        variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
-      >
-        <Image
-          src="/hero-bg.svg"
-          alt="work icons"
-          height={650}
-          width={650}
-          draggable={false}
-          className="select-none"
-        />
-      </motion.div>
     </motion.div>
   );
 };

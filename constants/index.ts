@@ -1,13 +1,11 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
 import {
-  RxDiscordLogo,
   RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-export const SKILL_DATA = [
+// --- Skill arrays (resume-only, icons confirmed in public/skills/) ---
+
+export const LANGUAGES = [
   {
     skill_name: "JavaScript",
     image: "js.png",
@@ -15,11 +13,26 @@ export const SKILL_DATA = [
     height: 65,
   },
   {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
+    skill_name: "HTML",
+    image: "html.png",
+    width: 65,
+    height: 65,
   },
+  {
+    skill_name: "CSS",
+    image: "css.png",
+    width: 65,
+    height: 65,
+  },
+  {
+    skill_name: "Python",
+    image: "python.svg",
+    width: 65,
+    height: 65,
+  },
+] as const;
+
+export const FRAMEWORKS = [
   {
     skill_name: "React",
     image: "react.png",
@@ -27,17 +40,44 @@ export const SKILL_DATA = [
     height: 80,
   },
   {
-    skill_name: "Next.js 14",
-    image: "next.png",
+    skill_name: "Node.js",
+    image: "node.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Express.js",
-    image: "express.png",
+    skill_name: "FastAPI",
+    image: "fastapi.svg",
     width: 80,
     height: 80,
   },
+  {
+    skill_name: "PyTorch",
+    image: "pytorch.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Scikit-Learn",
+    image: "sklearn.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Pandas",
+    image: "pandas.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "NumPy",
+    image: "numpy.svg",
+    width: 80,
+    height: 80,
+  },
+] as const;
+
+export const DATABASES = [
   {
     skill_name: "PostgreSQL",
     image: "postgresql.png",
@@ -45,10 +85,19 @@ export const SKILL_DATA = [
     height: 70,
   },
   {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
+    skill_name: "Qdrant",
+    image: "qdrant.png",
+    width: 70,
+    height: 70,
+  },
+] as const;
+
+export const TOOLS = [
+  {
+    skill_name: "Git",
+    image: "git.svg",
+    width: 70,
+    height: 70,
   },
   {
     skill_name: "Docker",
@@ -56,184 +105,83 @@ export const SKILL_DATA = [
     width: 70,
     height: 70,
   },
+  {
+    skill_name: "Linux",
+    image: "linux.svg",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Postman",
+    image: "postman.svg",
+    width: 70,
+    height: 70,
+  },
 ] as const;
+
+// --- Socials ---
 
 export const SOCIALS = [
   {
     name: "GitHub",
     icon: RxGithubLogo,
-    link: "https://github.com/TishyaJ",
+    link: "https://github.com/overlord00007",
   },
   {
     name: "LinkedIn",
     icon: RxLinkedinLogo,
-    link: "https://www.linkedin.com/in/tishya-j/",
-  },
-  {
-    name: "Portfolio",
-    icon: RxTwitterLogo,
-    link: "https://tishyaj.github.io/PORTFOLIO/",
+    link: "https://linkedin.com/in/yuvraj-singh-00aa47282/",
   },
 ] as const;
 
-export const FRONTEND_SKILL = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-] as const;
-
-export const BACKEND_SKILL = [
-  {
-    skill_name: "Python",
-    image: "python.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Express.js",
-    image: "express.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "MySQL",
-    image: "mysql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
-  {
-    skill_name: "Docker",
-    image: "docker.png",
-    width: 70,
-    height: 70,
-  },
-] as const;
-
-export const FULLSTACK_SKILL = [
-  {
-    skill_name: "React Native",
-    image: "reactnative.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Docker",
-    image: "docker.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Figma",
-    image: "figma.png",
-    width: 50,
-    height: 50,
-  },
-] as const;
-
-export const OTHER_SKILL = [
-  {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
-  },
-] as const;
+// --- Projects ---
 
 export const PROJECTS = [
   {
-    title: "Intelligent RevOps | Agentic AI",
+    title: "Saaransh",
+    subtitle: "AI E-Consultation Platform · SIH 2025",
     description:
-      "⚡ Deterministic CrewAI Flows multi-agent pipeline with mandatory Human-in-the-Loop gate — zero unsanctioned email dispatch enforced at framework level. ET AI Hackathon Semi-Finalist.\n\n• Random Forest churn scorer on 2,000-record synthetic CRM with SHAP explanations + local spaCy NER PII stripping + HuggingFace zero-shot NLI for competitor-intent detection\n• Chris Voss negotiation frameworks (Empathy Labeling, Tactical Mirroring) mapped to ML output; projected 15pp recovery lift (30% → 45%), $75K MRR/month incremental gain, 266% ROI\n\nTech: Python, CrewAI Flows, FastAPI, React, scikit-learn, spaCy",
-    image: "/projects/project-5.png",
-    link: "https://github.com/TishyaJ/Intelligent-Rev_Ops",
-  },
-  {
-    title: "Medicova AI | Pharmacovigilance Platform",
-    description:
-      "🧠 AI-driven pharmacovigilance platform for real-time adverse drug reaction detection and classification.\n\n• Engineered an automated NLP pipeline using a BioMistral ensemble with QLoRA fine-tuning, achieving Macro F1-Score of 0.94\n• Built multimodal evidence collection with AI-powered risk stratification and stakeholder-specific analytics dashboards\n• WhatsApp-first data capture using Twilio + ngrok synced with dashboard database; real-time adverse event monitoring\n\nTech: Python, BioMistral Ensemble, NLP, QLoRA, FastAPI, Twilio",
-    image: "/projects/project-4.png",
-    link: "https://github.com/TishyaJ/Medicova_AI_Pharmacovigilance_Platform",
-  },
-  {
-    title: "Saaransh MCA E-Consultation Platform",
-    description:
-      "🚀 AI-powered e-consultation platform for MCA bill analysis using an advanced custom NLP ensemble.\n\n• Custom ensemble of fine-tuned transformers (XLM-RoBERTa, RoBERTa, DistilBERT) with trend-weighted data augmentation\n• FAISS + SBERT global deduplication achieving 72% sentiment accuracy (↑7% over baseline); OCR-based ingestion cut latency by 40%\n• Production-grade FastAPI backend with 44 API endpoints, 95%+ test coverage, and stakeholder-specific analytics dashboards\n\nTech: FastAPI, PostgreSQL, BERT, FAISS, Docker, OCR",
+      "Full-stack AI public consultation platform with section-wise policy feedback analysis and Hinglish language support, built for the Ministry of Corporate Affairs.",
+    bullets: [
+      "Reduced <strong class='text-white'>manual policy analysis time by 80%</strong> via real-time sentiment analytics dashboard",
+      "Engineered <strong class='text-white'>custom ensemble classifier</strong> (XLM-RoBERTa + RoBERTa + DistilBERT) achieving <strong class='text-white'>72% accuracy</strong>, surpassing baselines by 7%",
+      "Integrated <strong class='text-white'>BART-based hierarchical summarization</strong> — processes 100+ comments in under 5 seconds",
+      "Advanced NLP pipelines for automated Hinglish translation and security validation",
+    ],
+    metrics: [
+      { value: "80%", label: "Analysis Time Saved" },
+      { value: "72%", label: "Classifier Accuracy" },
+      { value: "↑7%", label: "Over Baseline" },
+      { value: "<5s", label: "100+ Comments" },
+    ],
     image: "/projects/project-1.png",
-    link: "https://github.com/TishyaJ/SAARANSH_MCA_ECONSULTATION_MODULE",
-    demoLink: "https://saaransh-mca-e-consutation.vercel.app/",
+    link: "https://github.com/overlord00007/project",
+    tech: ["React", "Express.js", "PostgreSQL", "FastAPI", "HuggingFace", "XLM-RoBERTa", "BART"],
   },
   {
-    title: "RentalPro",
+    title: "Scrubbie",
+    subtitle: "Multiplayer Drawing Game · Live on Render",
     description:
-      "🏗️ Scalable full-stack rental platform with secure authentication and dynamic pricing — Finalist at Odoo Hackathon 2025.\n\n• End-to-end booking workflows with role-based access control and multi-factor authentication\n• Flexible pricing models, dynamic product listings, and production-ready API + database schemas\n\nTech: React, TypeScript, Express.js, PostgreSQL",
+      "Real-time multiplayer drawing and guessing game deployed on Render, supporting 100+ concurrent users with sub-100ms canvas synchronization — inspired by skribbl.io.",
+    bullets: [
+      "Built <strong class='text-white'>real-time multiplayer</strong> game engine on Render supporting <strong class='text-white'>100+ concurrent users</strong>",
+      "Implemented <strong class='text-white'>event-driven WebSocket architecture</strong> via Socket.IO — sub-100ms canvas sync and instant chat delivery",
+      "Turn-based mechanics and peer voting drove a <strong class='text-white'>60% increase in user engagement</strong>",
+      "Applied <strong class='text-white'>OOD principles</strong> to manage complex game states, lobby systems, and user sessions",
+    ],
+    metrics: [
+      { value: "100+", label: "Concurrent Users" },
+      { value: "<100ms", label: "Canvas Sync" },
+      { value: "60%", label: "↑ Engagement" },
+    ],
     image: "/projects/project-2.png",
-    link: "https://github.com/TishyaJ/Odoo_Hackathon_Round2",
-  },
-  {
-    title: "SkillSwap Hub",
-    description:
-      "🔄 Community-driven platform for seamless and secure peer-to-peer skill swapping — Selected for Finals at Odoo Hackathon 2025.\n\n• Minimalist, elegant interface for skill discovery and exchange between users\n• Secure authentication, peer matching, and real-time session management\n\nTech: React, TypeScript, Express.js, PostgreSQL",
-    image: "/projects/project-3.jpeg",
-    link: "https://github.com/TishyaJ/SkillSwap-Hub",
+    link: "https://github.com/overlord00007/scrubbie",
+    demoLink: "https://scrubbie.onrender.com/",
+    tech: ["React", "Node.js", "Socket.IO", "WebSocket", "Express.js"],
   },
 ] as const;
+
+// --- Footer ---
 
 export const FOOTER_DATA = [
   {
@@ -242,12 +190,12 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com/TishyaJ",
+        link: "https://github.com/overlord00007",
       },
       {
         name: "LinkedIn",
         icon: RxLinkedinLogo,
-        link: "https://www.linkedin.com/in/tishya-j/",
+        link: "https://linkedin.com/in/yuvraj-singh-00aa47282/",
       },
     ],
   },
@@ -255,18 +203,15 @@ export const FOOTER_DATA = [
     title: "Contact",
     data: [
       {
-        name: "tishyajha04@gmail.com",
+        name: "yuvraj021120@gmail.com",
         icon: null,
-        link: "mailto:tishyajha04@gmail.com",
-      },
-      {
-        name: "23CD3049@rgipt.ac.in",
-        icon: null,
-        link: "mailto:23CD3049@rgipt.ac.in",
+        link: "mailto:yuvraj021120@gmail.com",
       },
     ],
   },
 ] as const;
+
+// --- Nav links ---
 
 export const NAV_LINKS = [
   {
@@ -286,11 +231,13 @@ export const NAV_LINKS = [
     link: "#achievements",
   },
   {
-    title: "Experience & Certs",
-    link: "#special-links",
+    title: "Experience",
+    link: "#experience",
   },
 ] as const;
 
+// --- Misc links ---
+
 export const LINKS = {
-  sourceCode: "https://github.com/TishyaJ/PORTFOLIO",
+  sourceCode: "https://github.com/overlord00007",
 };

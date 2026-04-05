@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="w-full h-[70px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001427] backdrop-blur-md z-50 px-6">
+    <div className="w-full h-[70px] fixed top-0 shadow-lg shadow-[#14532d]/50 bg-[#03001427] backdrop-blur-md z-50 px-6">
       {/* Navbar Container */}
       <div className="w-full h-full flex items-center justify-between m-auto max-w-7xl">
         {/* Logo + Name */}
@@ -26,7 +26,7 @@ export const Navbar = () => {
             className="cursor-pointer group-hover:scale-110 transition-transform duration-300"
           />
           <div className="hidden md:flex font-bold ml-3 text-gray-300 group-hover:text-white transition-colors">
-            Tishya Jha
+            Yuvraj Singh
           </div>
         </Link>
 
@@ -36,7 +36,7 @@ export const Navbar = () => {
             <Link
               key={link.title}
               href={link.link}
-              className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-white hover:bg-[rgba(112,66,248,0.1)] rounded-lg transition-all duration-300 hover:scale-105"
+              className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-white hover:bg-[rgba(34,197,94,0.1)] rounded-lg transition-all duration-300 hover:scale-105"
             >
               {link.title}
             </Link>
@@ -53,20 +53,20 @@ export const Navbar = () => {
                 target="_blank"
                 rel="noreferrer noopener"
                 key={name}
-                className="p-2 text-gray-400 hover:text-white hover:bg-[rgba(112,66,248,0.1)] rounded-lg transition-all duration-300 hover:scale-110"
+                className="p-2 text-gray-400 hover:text-white hover:bg-[rgba(34,197,94,0.1)] rounded-lg transition-all duration-300 hover:scale-110"
                 title={name}
               >
                 <Icon className="h-5 w-5" />
               </Link>
             ))}
           </div>
-          
+
           {/* Source Code Button */}
           <Link
             href={LINKS.sourceCode}
             target="_blank"
             rel="noreferrer noopener"
-            className="px-4 py-2 bg-gradient-to-r from-purple-500 to-cyan-500 text-white text-sm font-medium rounded-lg hover:from-purple-600 hover:to-cyan-600 transition-all duration-300 hover:scale-105 shadow-lg"
+            className="px-4 py-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white text-sm font-medium rounded-lg hover:from-green-600 hover:to-emerald-600 transition-all duration-300 hover:scale-105 shadow-lg"
           >
             Source
           </Link>
@@ -92,7 +92,7 @@ export const Navbar = () => {
               <Link
                 key={link.title}
                 href={link.link}
-                className="px-4 py-3 text-gray-300 hover:text-white hover:bg-[rgba(112,66,248,0.1)] rounded-lg transition-all duration-300"
+                className="px-4 py-3 text-gray-300 hover:text-white hover:bg-[rgba(34,197,94,0.1)] rounded-lg transition-all duration-300"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.title}
@@ -108,7 +108,7 @@ export const Navbar = () => {
                 target="_blank"
                 rel="noreferrer noopener"
                 key={name}
-                className="p-3 text-gray-400 hover:text-white hover:bg-[rgba(112,66,248,0.1)] rounded-lg transition-all duration-300"
+                className="p-3 text-gray-400 hover:text-white hover:bg-[rgba(34,197,94,0.1)] rounded-lg transition-all duration-300"
                 title={name}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
@@ -123,7 +123,7 @@ export const Navbar = () => {
               href={LINKS.sourceCode}
               target="_blank"
               rel="noreferrer noopener"
-              className="px-6 py-3 bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-medium rounded-lg hover:from-purple-600 hover:to-cyan-600 transition-all duration-300"
+              className="px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-medium rounded-lg hover:from-green-600 hover:to-emerald-600 transition-all duration-300"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               View Source Code

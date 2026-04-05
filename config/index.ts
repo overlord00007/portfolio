@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  title: "Tishya Jha | Space Portfolio",
-  description: "Welcome to Tishya Jha's full stack Next.js 14 space portfolio. B.Tech CSE student at RGIPT with expertise in AI, ML, and web development.",
+  title: "Yuvraj Singh | Software Engineer",
+  description: "Analytical Software Engineer and SIH 2025 Finalist with a strong foundation in Data Structures, Algorithms, and Object-Oriented Design. Experienced in building scalable distributed systems (Scrubbie) and AI-integrated platforms (Saaransh) using C++, Python, and Full-Stack technologies. Keenly interested in contributing to innovative research and organizational growth through technical excellence and a results-driven mindset.",
   keywords: [
     "reactjs",
     "nextjs",
@@ -42,7 +42,7 @@ export const siteConfig: Metadata = {
     "computer-science",
   ] as Array<string>,
   authors: {
-    name: "Tishya Jha",
-    url: "https://github.com/TishyaJ",
+    name: "Yuvraj Singh",
+    url: "https://github.com/overlord00007",
   },
 } as const;
