@@ -28,7 +28,7 @@ export const SpecialLinks = () => {
       links: [
         {
           name: "All Achievement Links",
-          url: "https://linktr.ee/tishyajha",
+          url: "#",
           icon: "🔗",
           description: "Complete collection of hackathon wins, certifications, and competition results via Linktree"
         },
@@ -40,7 +40,7 @@ export const SpecialLinks = () => {
         },
         {
           name: "Credly Profile",
-          url: "https://www.credly.com/users/tishya-jha",
+          url: "#",
           icon: "🏆",
           description: "Digital badges and certifications from IBM, AWS, and more"
         }
@@ -51,25 +51,25 @@ export const SpecialLinks = () => {
       links: [
         {
           name: "Unstop Profile",
-          url: "https://unstop.com/u/tishyjha8354",
+          url: "https://github.com/overlord00007",
           icon: "🚀",
           description: "Competition and hackathon profile — 99.15 percentile Young Turks"
         },
         {
           name: "Google Developer Profile",
-          url: "https://g.dev/tishyajha",
+          url: "https://linkedin.com/in/yuvraj-singh-00aa47282/",
           icon: "💻",
           description: "Google Developer community profile"
         },
         {
           name: "Codeforces",
-          url: "https://codeforces.com/profile/emeraldeyes",
+          url: "https://codeforces.com/profile/picsoo",
           icon: "⚔️",
           description: "Competitive programming profile"
         },
         {
           name: "LeetCode",
-          url: "https://leetcode.com/u/TISHYA_JHA_04/",
+          url: "mailto:yuvraj021120@gmail.com",
           icon: "💡",
           description: "Algorithm and data structure practice"
         }

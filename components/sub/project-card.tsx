@@ -9,11 +9,11 @@ type Metric = {
 type ProjectCardProps = {
   src: string;
   title: string;
-  subtitle: string;
+  subtitle?: string;
   description: string;
-  bullets: string[];
-  metrics: Metric[];
-  tech: string[];
+  bullets?: string[];
+  metrics?: Metric[];
+  tech?: string[];
   link: string;
   demoLink?: string;
 };
@@ -21,11 +21,11 @@ type ProjectCardProps = {
 export const ProjectCard = ({
   src,
   title,
-  subtitle,
+  subtitle = "",
   description,
-  bullets,
-  metrics,
-  tech,
+  bullets = [],
+  metrics = [],
+  tech = [],
   link,
   demoLink,
 }: ProjectCardProps) => {

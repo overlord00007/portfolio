@@ -15,7 +15,9 @@ const VALID_SKILL_ICONS = new Set([
     "mongodb.png", "mui.png", "mysql.png", "next.png", "node.png",
     "postgresql.png", "prisma.png", "react.png", "reactnative.png",
     "reactquery.png", "redux.png", "stripe.png", "tailwind.png",
-    "tauri.png", "ts.png",
+    "tauri.png", "ts.png", "python.svg", "pytorch.svg", "sklearn.svg",
+    "pandas.svg", "numpy.svg", "fastapi.svg", "git.svg", "linux.svg",
+    "postman.svg", "qdrant.png",
 ]);
 
 const EXCLUDED_SKILLS = new Set([

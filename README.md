@@ -1,4 +1,4 @@
-# 🚀 Tishya Jha's Space Portfolio
+# 🚀 Yuvraj Singh's Space Portfolio
 
 <div align="center">
   <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js 14" />
@@ -56,7 +56,7 @@
 - **Tech Stack**: FastAPI, PostgreSQL, BERT, Gemini AI, DeepSeek API, Celery, Redis, Docker
 - **Features**: Real-time feedback processing with OCR and analytics dashboard
 - **Live Demo**: ⭐ [saaransh-mca-e-consutation.vercel.app](https://saaransh-mca-e-consutation.vercel.app/)
-- **GitHub**: [Repository](https://github.com/TishyaJ/Saaransh_MCA_EConsutation_Backend)
+- **GitHub**: [Repository](https://github.com/YuvrajSingh/Saaransh_MCA_EConsutation_Backend)
 
 ### 2. 🏠 RentalPro
 
@@ -65,7 +65,7 @@
 - **Tech Stack**: React, TypeScript, Express.js, PostgreSQL, JWT, Shadcn/UI, Razorpay
 - **Features**: Multi-factor authentication, dynamic product listings, flexible pricing models
 - **Achievement**: Finalist at Odoo Hackathon 2025
-- **GitHub**: [Repository](https://github.com/TishyaJ/Odoo_Hackathon_Round2)
+- **GitHub**: [Repository](https://github.com/YuvrajSingh/Odoo_Hackathon_Round2)
 
 ### 3. 🤝 SkillSwap Hub
 
@@ -74,7 +74,7 @@
 - **Tech Stack**: React, TypeScript, Express.js, PostgreSQL, JWT Authentication
 - **Features**: Seamless and secure skill exchange platform
 - **Achievement**: Selected for Finals at Odoo Hackathon 2025
-- **GitHub**: [Repository](https://github.com/TishyaJ/SkillSwap-Hub)
+- **GitHub**: [Repository](https://github.com/YuvrajSingh/SkillSwap-Hub)
 
 ---
 
@@ -103,19 +103,19 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TishyaJ)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tishya-j/)
-[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/emeraldeyes)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/TISHYA_JHA_04/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YuvrajSingh)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvraj-singh/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/picsoo)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/YUVRAJ_SINGH_04/)
 
 </div>
 
 ### 📧 Contact Information
 
-- **Email**: tishyajha04@gmail.com
+- **Email**: yuvrajsingh04@gmail.com
 - **Academic Email**: 23CD3049@rgipt.ac.in
-- **Portfolio**: [tishyaj.github.io/PORTFOLIO/](https://tishyaj.github.io/PORTFOLIO/)
-- **Live Demo**: [space-portfolio-rk5vynjv9-tishya-jhas-projects.vercel.app](https://space-portfolio-rk5vynjv9-tishya-jhas-projects.vercel.app)
+- **Portfolio**: [yuvrajsingh.github.io/PORTFOLIO/](https://yuvrajsingh.github.io/PORTFOLIO/)
+- **Live Demo**: [space-portfolio-rk5vynjv9-yuvraj-singhs-projects.vercel.app](https://space-portfolio-rk5vynjv9-yuvraj-singhs-projects.vercel.app)
 
 ---
 
@@ -144,7 +144,7 @@ This space-themed portfolio is built with modern web technologies and features:
 
 ```bash
 # Clone the repository
-git clone https://github.com/TishyaJ/PORTFOLIO.git
+git clone https://github.com/YuvrajSingh/PORTFOLIO.git
 
 # Navigate to the project directory
 cd space-portfolio
@@ -171,8 +171,8 @@ npm start
 ## 📊 Repository Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TishyaJ&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TishyaJ&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YuvrajSingh&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YuvrajSingh&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
 ---
@@ -189,7 +189,7 @@ npm start
 <div align="center">
   <h3>🌟 "Building the future, one line of code at a time" 🌟</h3>
   
-  <p>Made with ❤️ by <strong>Tishya Jha</strong></p>
+  <p>Made with ❤️ by <strong>Yuvraj Singh</strong></p>
   
   <img src="https://img.shields.io/badge/Last%20Updated-January%202025-blue?style=for-the-badge" alt="Last Updated" />
 </div>
