@@ -1,195 +1,209 @@
-# 🚀 Yuvraj Singh's Space Portfolio
+# Yuvraj Singh | Portfolio
 
 <div align="center">
   <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js 14" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/React-18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 18" />
+  <img src="https://img.shields.io/badge/TypeScript-Ready-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/AI/ML-Expert-orange?style=for-the-badge" alt="AI/ML Expert" />
-  <img src="https://img.shields.io/badge/Full%20Stack-Developer-blue?style=for-the-badge" alt="Full Stack Developer" />
-  <img src="https://img.shields.io/badge/RGIPT-Student-green?style=for-the-badge" alt="RGIPT Student" />
+  <img src="https://img.shields.io/badge/SIH%202025-Finalist-16A34A?style=for-the-badge" alt="SIH 2025 Finalist" />
+  <img src="https://img.shields.io/badge/Odoo%20Hackathon-Runner%20Up-0F766E?style=for-the-badge" alt="Odoo Hackathon Runner Up" />
+  <img src="https://img.shields.io/badge/Codeforces-Specialist-1D4ED8?style=for-the-badge" alt="Codeforces Specialist" />
 </div>
-
----
-
-## 👨‍💻 About Me
-
-**Sophomore in Computer Science and Design Engineering at RGIPT** with expertise in AI/ML, Full Stack Development, and competitive programming. Actively participated in hackathons, coding contests, and events, always striving to push my limits and improve. My problem-solving approach emphasizes logical thinking and algorithmic breakdown, enabling me to tackle complex challenges effectively.
-
-### 🎯 Key Highlights
-
-- **B.Tech CSE Student** at Rajiv Gandhi Institute of Petroleum Technology (RGIPT)
-- **AI/ML Enthusiast** with hands-on experience in sentiment analysis and model interpretability
-- **Hackathon Winner** with multiple achievements in prestigious competitions
-- **Competitive Programmer** on Codeforces and LeetCode
-
----
-
-## 🏆 Achievements & Recognition
-
-### 🥇 Recent Achievements (2024-2025)
-
-- **Top 250 Finalist Nationwide** | Odoo Hackathon 2025
-- **Contributor @GSSOC 2025** | GirlScript Summer of Code
-- **Round 2 Qualifier** | Flipkart Grid Software Development Track
-- **Winner** | CodeClash Hackathon by Let's Code Community
-- **Rank 1** | DSA Quiz and Coding Competition | Technocrat Institute of Technology Bhopal
-- **Finalist** | IIT Bombay Techfest | Meshmerize Competition
-
-### 🎓 Academic Excellence
-
-- **JEE Advanced Top 2%** | Qualified as top 2% in JEE Mains and Advanced
-- **CUET 99.98%ile Maths** | 99.98 percentile in Mathematics
-- **NTSE UP 2023 Scholar** | National Talent Search Examination Scholar
-
----
-
-## 🚀 Top Projects
-
-### 1. 🌟 Saaransh MCA E-Consultation Platform
-
-**AI-powered platform for analyzing stakeholder feedback on MCA bills using sentiment analysis and ML**
-
-- **Tech Stack**: FastAPI, PostgreSQL, BERT, Gemini AI, DeepSeek API, Celery, Redis, Docker
-- **Features**: Real-time feedback processing with OCR and analytics dashboard
-- **Live Demo**: ⭐ [saaransh-mca-e-consutation.vercel.app](https://saaransh-mca-e-consutation.vercel.app/)
-- **GitHub**: [Repository](https://github.com/YuvrajSingh/Saaransh_MCA_EConsutation_Backend)
-
-### 2. 🏠 RentalPro
-
-**Modern, full-stack rental platform connecting item owners with renters**
-
-- **Tech Stack**: React, TypeScript, Express.js, PostgreSQL, JWT, Shadcn/UI, Razorpay
-- **Features**: Multi-factor authentication, dynamic product listings, flexible pricing models
-- **Achievement**: Finalist at Odoo Hackathon 2025
-- **GitHub**: [Repository](https://github.com/YuvrajSingh/Odoo_Hackathon_Round2)
-
-### 3. 🤝 SkillSwap Hub
-
-**Community-driven platform for peer-to-peer skill swapping**
-
-- **Tech Stack**: React, TypeScript, Express.js, PostgreSQL, JWT Authentication
-- **Features**: Seamless and secure skill exchange platform
-- **Achievement**: Selected for Finals at Odoo Hackathon 2025
-- **GitHub**: [Repository](https://github.com/YuvrajSingh/SkillSwap-Hub)
-
----
-
-## 🛠️ Technical Skills
-
-### 💻 Programming Languages
-
-- **Python** | **JavaScript** | **TypeScript** | **C++** | **Java** | **MATLAB** | **Qiskit**
-
-### 🌐 Web Technologies
-
-- **Frontend**: HTML, CSS, Tailwind CSS, React, Next.js 14, TypeScript
-- **Backend**: FastAPI, Express.js, Node.js
-- **Databases**: PostgreSQL, MySQL, MongoDB
-- **Tools**: Docker, Git, GitHub
-
-### 🤖 AI/ML & Data Science
-
-- **Libraries**: TensorFlow, Pandas, NumPy, Scikit-learn, Matplotlib
-- **Frameworks**: BERT, SHAP, LIME, XGBoost
-- **Specializations**: Sentiment Analysis, Model Interpretability, Quantum Computing
-
----
-
-## 🔗 Professional Profiles
 
 <div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YuvrajSingh)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvraj-singh/)
-[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/picsoo)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/YUVRAJ_SINGH_04/)
-
+  <h3>Analytical Software Engineer focused on full-stack systems, AI-integrated products, and competitive programming.</h3>
 </div>
 
-### 📧 Contact Information
+---
 
-- **Email**: yuvrajsingh04@gmail.com
-- **Academic Email**: 23CD3049@rgipt.ac.in
-- **Portfolio**: [yuvrajsingh.github.io/PORTFOLIO/](https://yuvrajsingh.github.io/PORTFOLIO/)
-- **Live Demo**: [space-portfolio-rk5vynjv9-yuvraj-singhs-projects.vercel.app](https://space-portfolio-rk5vynjv9-yuvraj-singhs-projects.vercel.app)
+## About Me
+
+I am **Yuvraj Singh**, a **B.Tech student in Mathematics and Computing at Rajiv Gandhi Institute of Petroleum Technology (INI), Jais)** with a strong foundation in:
+
+- **Data Structures and Algorithms**
+- **Object-Oriented Design**
+- **Full-Stack Development**
+- **AI/ML Systems**
+- **Distributed and Real-Time Applications**
+
+I enjoy building products that combine strong engineering fundamentals with measurable impact, from **AI-assisted public consultation platforms** to **real-time multiplayer applications**.
 
 ---
 
-## 🎨 Portfolio Features
+## Snapshot
 
-This space-themed portfolio is built with modern web technologies and features:
-
-- ✨ **Interactive Animations** with Framer Motion
-- 🎨 **Space-themed Design** with cosmic backgrounds
-- 📱 **Responsive Layout** for all devices
-- ⚡ **Optimized Performance** with Next.js 14
-- 🌟 **Interactive Project Cards** with live demos
-- 🏆 **Achievements Showcase** with detailed accomplishments
-- 🔗 **Professional Links** and certifications
+- **Current Degree**: B.Tech in Mathematics and Computing
+- **Institute**: Rajiv Gandhi Institute of Petroleum Technology (INI), Jais
+- **CPI**: **8.36**
+- **Location**: Rewa, Madhya Pradesh, India
+- **Email**: `yuvraj021120@gmail.com`
+- **Phone**: `+91 83199 24504`
+- **GitHub**: [overlord00007](https://github.com/overlord00007)
+- **LinkedIn**: [yuvraj-singh-00aa47282](https://linkedin.com/in/yuvraj-singh-00aa47282/)
+- **Codeforces**: [picsoo](https://codeforces.com/profile/picsoo)
 
 ---
 
-## 🚀 Getting Started
+## Achievements
+
+- **Finalist (Team Lead), Smart India Hackathon 2025**  
+  Built and led the development of **Saaransh** for the **Ministry of Corporate Affairs**.
+- **Runner Up, Odoo Hackathon 2025**  
+  Built a complete full-stack rental platform under intense time constraints.
+- **Codeforces Specialist**  
+  Reached a **max rating of 1489** in June 2025.
+- **Top 2% Selectee, McKinsey Step Forward Program**  
+  Selected for a leadership and structured problem-solving program.
+
+---
+
+## Experience
+
+### Step Forward Program Participant | McKinsey & Company
+**Apr 2025 - Jun 2025**
+
+- Selected among the **top 2% applicants** for a leadership and problem-solving program.
+- Improved solution efficiency by **30%** through structured analytical thinking and collaboration.
+
+### AI Intern | Edunet Foundation
+**May 2025 - Jun 2025**
+
+- Worked on **ML and cloud-AI workflows** including image classification and Azure-based deployment.
+- Strengthened reliability of ML pipelines through testing and workflow optimization.
+
+### Editorial Head | GFG Club
+**Oct 2023 - Nov 2025**
+
+- Led editorial planning, technical review, and contributor coordination.
+- Improved consistency and engagement across technical content initiatives.
+
+---
+
+## Featured Projects
+
+### 1. Saaransh
+**AI E-Consultation Platform for the Ministry of Corporate Affairs**
+
+**Tech Stack**: React, Express.js, PostgreSQL, FastAPI, HuggingFace, XLM-RoBERTa, RoBERTa, DistilBERT, BART
+
+- Built a full-stack AI public consultation platform with **section-wise policy feedback analysis** and **Hinglish support**.
+- Reduced **manual policy analysis time by 80%** through real-time analytics.
+- Engineered a custom ensemble sentiment classifier with **72% accuracy**, beating baseline research by **7%**.
+- Integrated hierarchical summarization to process **100+ comments in under 5 seconds**.
+
+**Repository**: [github.com/overlord00007/project](https://github.com/overlord00007/project)
+
+### 2. Scrubbie
+**Real-Time Multiplayer Drawing Game**
+
+**Tech Stack**: React, Node.js, Express.js, Socket.IO, WebSocket
+
+- Built a real-time multiplayer drawing game supporting **100+ concurrent users**.
+- Achieved **sub-100ms canvas synchronization** and instant chat delivery through event-driven architecture.
+- Increased engagement by **60%** using turn-based gameplay and peer voting.
+- Applied object-oriented design principles for game state, lobby, and session management.
+
+**Live Demo**: [scrubbie.onrender.com](https://scrubbie.onrender.com/)
+
+**Repository**: [github.com/overlord00007/scrubbie](https://github.com/overlord00007/scrubbie)
+
+---
+
+## Technical Skills
+
+### Languages
+
+`C++` `Python` `SQL` `JavaScript` `HTML` `CSS`
+
+### Frameworks and Libraries
+
+`React` `Node.js` `FastAPI` `PyTorch` `Scikit-Learn` `Pandas` `NumPy`
+
+### Databases
+
+`PostgreSQL` `Qdrant`
+
+### Tools and Platforms
+
+`Git` `Docker` `Linux` `Postman` `REST APIs` `VS Code`
+
+### Coursework
+
+`DSA` `OOP` `Operating Systems` `Relational Databases` `Statistics` `Web Technology` `Computer Networks`
+
+---
+
+## Education
+
+### Rajiv Gandhi Institute of Petroleum Technology (INI), Jais
+**B.Tech in Mathematics and Computing**  
+**Aug 2023 - May 2027**  
+**CPI: 8.36**
+
+### Board of Secondary Education
+**Class XII**  
+**Mar 2020 - Apr 2022**  
+**Percentage: 88.4%**
+
+---
+
+## Certifications
+
+- **DSA Using JAVA** - Infosys, Mar 2026
+- **Oracle Analytics Cloud 2025 Professional** - Oracle, Oct 2025
+
+---
+
+## Portfolio Highlights
+
+This portfolio is built as a modern developer showcase with:
+
+- A **space-inspired UI**
+- **Framer Motion** powered interactions
+- **Responsive design** across devices
+- Dedicated sections for **projects, achievements, skills, and experience**
+- A structure aligned with my resume and engineering profile
+
+---
+
+## Getting Started
 
 ### Prerequisites
 
 - Node.js 18+
-- npm or yarn
+- npm
 
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/YuvrajSingh/PORTFOLIO.git
-
-# Navigate to the project directory
-cd space-portfolio
-
-# Install dependencies
+git clone https://github.com/overlord00007/portfolio.git
+cd portfolio
 npm install
-
-# Start the development server
 npm run dev
 ```
 
-### Build for Production
+### Production Build
 
 ```bash
-# Build the application
 npm run build
-
-# Start the production server
 npm start
 ```
 
 ---
 
-## 📊 Repository Stats
+## Contact
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YuvrajSingh&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YuvrajSingh&layout=compact&theme=radical" alt="Top Languages" />
-</div>
-
----
-
-## 🎯 Future Goals
-
-- 🔬 **Research in Quantum Computing** and AI/ML applications
-- 🌍 **Open Source Contributions** to meaningful projects
-- 🏆 **Competitive Programming** excellence on global platforms
-- 💼 **Industry Experience** in cutting-edge technology companies
+- **Email**: [yuvraj021120@gmail.com](mailto:yuvraj021120@gmail.com)
+- **LinkedIn**: [linkedin.com/in/yuvraj-singh-00aa47282](https://linkedin.com/in/yuvraj-singh-00aa47282/)
+- **GitHub**: [github.com/overlord00007](https://github.com/overlord00007)
+- **Codeforces**: [codeforces.com/profile/picsoo](https://codeforces.com/profile/picsoo)
 
 ---
 
 <div align="center">
-  <h3>🌟 "Building the future, one line of code at a time" 🌟</h3>
-  
-  <p>Made with ❤️ by <strong>Yuvraj Singh</strong></p>
-  
-  <img src="https://img.shields.io/badge/Last%20Updated-January%202025-blue?style=for-the-badge" alt="Last Updated" />
+  <h3>Building products that are fast, useful, and grounded in strong engineering fundamentals.</h3>
+  <p><strong>Made by Yuvraj Singh</strong></p>
 </div>
